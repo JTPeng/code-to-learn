@@ -1,0 +1,3 @@
+<template>
+  <ScreenLoading></ScreenLoading>
+</template>
