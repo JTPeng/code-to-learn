@@ -5,6 +5,7 @@ import SvgAnimation from "./components/SvgAnimation/index";
 import ScreenLoading from "./components/ScreenLoading/index";
 import FlexBox from "./components/FlexBox/index";
 import Container from "./components/Container/index";
+import ScrollTable from "./components/ScrollTable/index";
 export default function (Vue) {
   // 组件注册
   Vue.use(Test);
@@ -14,4 +15,5 @@ export default function (Vue) {
   Vue.use(ScreenLoading);
   Vue.use(FlexBox);
   Vue.use(Container);
+  Vue.use(ScrollTable);
 }
